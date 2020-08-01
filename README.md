@@ -1,7 +1,8 @@
 # KnorishBoatProject
 Boat Assignmentprovided by Knorish company
 
-# Assignment Link: https://docs.google.com/document/d/1sZ3xwgJ_SCgHPGg-gSdeeovvAdXyHD8irVVQsOnis-o/edit
+# Assignment Link: 
+https://docs.google.com/document/d/1sZ3xwgJ_SCgHPGg-gSdeeovvAdXyHD8irVVQsOnis-o/edit
 
 # Technical Requirements:
 .Net Core with C# has been selected to create WebAPI so that we can get inbuilt feature of DI and also API can be deployed on different other OS apart from Windows only. To save data I use SQL Server database.
