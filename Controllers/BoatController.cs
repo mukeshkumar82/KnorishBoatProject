@@ -19,7 +19,7 @@ namespace KnorishBoatProject.Controllers
         }
 
         [HttpPost]
-        [Route("RegisterBoat/{boatName}/{hourlyRate}")]
+        [Route("RegisterBoat")]
         public Guid RegisterBoat(string boatName, Int32 hourlyRate)
         {
 
@@ -27,7 +27,7 @@ namespace KnorishBoatProject.Controllers
         }
 
         [HttpPost]
-        [Route("BookBoat/{boatNumber}/{customerName}")]
+        [Route("BookBoat")]
         public bool BookBoat(Guid boatNumber, string customerName)
         {
             return boatActivities.BookBoat(boatNumber, customerName);
